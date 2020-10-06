@@ -1,0 +1,1 @@
+run = "javac -classpath src/:/run_dir/junit-4.12.jar:target/dependency/* -d src/ src/searchAndPrint.java src/Sudoku.java src/extractAndSearch.java src/tester.java; java -classpath src/:/run_dir/junit-4.12.jar:target/dependency/* tester"
